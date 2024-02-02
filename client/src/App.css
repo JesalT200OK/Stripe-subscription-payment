@@ -1,0 +1,140 @@
+.FormGroup {
+  margin: 0 15px 20px;
+  padding: 0;
+  border-style: none;
+  background-color: #7795f8;
+  will-change: opacity, transform;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #829fff;
+  border-radius: 4px;
+}
+
+.FormRow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 15px;
+  border-top: 1px solid #819efc;
+}
+
+.StripeElement--webkit-autofill {
+  background: transparent !important;
+}
+
+.StripeElement {
+  width: 100%;
+  padding: 11px 15px 11px 0;
+}
+
+.pay-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.pay-btn button {
+  border: 2px solid white;
+  padding: 10px 25px;
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  line-height: 2rem;
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.753);
+}
+.pay-btn button:hover {
+  background: rgb(165, 180, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(165, 180, 58, 1) 0%,
+    rgba(22, 0, 87, 1) 37%,
+    rgba(22, 0, 87, 1) 100%
+  );
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+body {
+  background: rgb(165, 180, 58);
+  background: linear-gradient(
+    90deg,
+    rgba(165, 180, 58, 1) 0%,
+    rgba(40, 0, 161, 1) 76%,
+    rgba(40, 0, 161, 1) 100%
+  );
+  height: 100vh;
+}
+.card-element {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.done-payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.done-payment img {
+  max-width: 500px;
+}
+.draw-line {
+  border-left: 6px solid white;
+  height: 500px;
+}
+.custom-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-text {
+  font-size: 18px;
+  color: white;
+}
+.sub-text {
+  font-size: 30px;
+  color: white;
+}
+.card-element {
+  margin-top: 20px;
+}
+.payment-details {
+  margin-top: 10px;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.g-pay {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+.sub-card-elements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-expire {
+  width: 100%;
+  margin-right: 10px;
+}
+.card-cvv {
+  width: 100%;
+  margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .custom-flex {
+    display: block !important;
+  }
+  .draw-line {
+    display: none;
+  }
+}
